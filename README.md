@@ -44,4 +44,8 @@
 
   - 해당 프로세스 안에 쓰레드 상태를 확인하기 위해 Thread Dump 파일 생성
 ![image](https://user-images.githubusercontent.com/41093183/195062381-faec050a-fd99-47ff-b3e4-c56bb70a1dd7.png)
-  - 
+  - 교착상태에서의 쓰레드 상태
+
+![image](https://user-images.githubusercontent.com/41093183/195130850-458176d7-a3ae-4949-b213-843f4e56efa4.png)
+
+

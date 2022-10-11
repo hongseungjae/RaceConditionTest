@@ -4,7 +4,7 @@ public class test {
 
 	static int a = 1;
 	
-	volatile static int result = 100;
+	static int result = 100;
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

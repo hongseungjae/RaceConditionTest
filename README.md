@@ -3,5 +3,5 @@
 
 
 #### 2. 멀티쓰레드 환경에서 교착상태를 강제로 만들어 확인할 수 있는 코드 작성해보기
-* 테스트파일 : test2.java Calc.java Save.java
+* 테스트파일 : test2.java , Calc.java , Save.java
 

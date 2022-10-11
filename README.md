@@ -38,9 +38,9 @@
 #### 테스트 결과
   * 출력 값\
   ![image](https://user-images.githubusercontent.com/41093183/195061605-2e7880c3-4de9-4396-8629-39795e2f76a7.png)
-  * Thread-0 plus 점유하고 Thread-1 save 점유함
-  * Thread-0 save 메서드 호출, Thread-1 save 메서드 호출
-  * **교착상태**가 발생하여 멈춤
+  * 거의 동시에 Thread-0이 plus 객체 점유하고 Thread-1이 save 객체를 점유함
+  * Thread-0이 save 메서드 호출, Thread-1이 plus 메서드 호출
+  * **교착상태**가 발생하여 Thread-0과 Thread-1이 BLOCKED 상태가 됨
 
   - 해당 프로세스 안에 쓰레드 상태를 확인하기 위해 Thread Dump 파일 생성
 ![image](https://user-images.githubusercontent.com/41093183/195062381-faec050a-fd99-47ff-b3e4-c56bb70a1dd7.png)

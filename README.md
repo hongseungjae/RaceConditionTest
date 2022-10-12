@@ -26,11 +26,12 @@
 
 #### 환경 구성
 * 상호배제를 위한 synchronized설정
-  - ```synchronized int plus(int num)``` Calc클래스의 plus메서드 synchronized설정
-  - ```synchronized void valueSave(int num)``` Save클래스의 valueSave메서드 synchronized설정
+  - Calc클래스의 plus메서드 synchronized설정 ```synchronized int plus(int num)```
+  - Save클래스의 valueSave메서드 synchronized설정```synchronized void valueSave(int num)``` 
 
 * 호출 과정\
-  ![image](https://user-images.githubusercontent.com/41093183/195060013-ef2856f4-4cc9-4852-8d09-9e13746f122c.png)
+  ![image](https://user-images.githubusercontent.com/41093183/195278115-1b25617e-95f0-452a-a6cc-ccd349d2a4cf.png)
+
 
 <br/>
 

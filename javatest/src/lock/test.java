@@ -15,7 +15,7 @@ public class test {
 			public void run() {
 				while(a < result) {
 					
-					System.out.println("ÇöÀç°ª : "+a +" "+ " ÇöÀç ¾²·¹µå : "+Thread.currentThread().getName());
+					System.out.println("í˜„ìž¬ê°’ : "+a +" "+ " í˜„ìž¬ ì“°ë ˆë“œ : "+Thread.currentThread().getName());
 					
 					try {
 						Thread.sleep(100);
@@ -26,7 +26,7 @@ public class test {
 					
 					test.a = test.a + 1;
 					
-					System.out.println("´ÙÀ½°ª : "+a +" "+ " ÇöÀç ¾²·¹µå : "+Thread.currentThread().getName());
+					System.out.println("ë‹¤ìŒê°’ : "+a +" "+ " í˜„ìž¬ ì“°ë ˆë“œ : "+Thread.currentThread().getName());
 				}
 			}
 		}).start();
@@ -38,7 +38,7 @@ public class test {
 			public void run() {
 				while(a < result) {
 					
-					System.out.println("ÇöÀç°ª : "+a +" "+ " ÇöÀç ¾²·¹µå : "+Thread.currentThread().getName());
+					System.out.println("í˜„ìž¬ê°’ : "+a +" "+ " í˜„ìž¬ ì“°ë ˆë“œ : "+Thread.currentThread().getName());
 					
 					try {
 						Thread.sleep(100);
@@ -49,7 +49,7 @@ public class test {
 					
 					test.a = test.a + 1;
 					
-					System.out.println("´ÙÀ½°ª : "+a +" "+ " ÇöÀç ¾²·¹µå : "+Thread.currentThread().getName());
+					System.out.println("ë‹¤ìŒê°’ : "+a +" "+ " í˜„ìž¬ ì“°ë ˆë“œ : "+Thread.currentThread().getName());
 				}
 			}
 		}).start();
@@ -65,5 +65,4 @@ public class test {
 		}
 		
 	}
-
 }

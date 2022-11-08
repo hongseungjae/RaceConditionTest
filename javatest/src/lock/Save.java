@@ -1,5 +1,6 @@
 package lock;
 
+
 class Save {
 	
 	Calc calc;
@@ -14,10 +15,10 @@ class Save {
 	
 	int num = 0;
 
-	synchronized void valueSave(int num) {	// »óÈ£¹èÁ¦¸¦ À§ÇÑ synchronized ¼³Á¤
+	synchronized void valueSave(int num) {	// ìƒí˜¸ë°°ì œë¥¼ ìœ„í•œ synchronized ì„¤ì •
 		this.num = num;
 		
-		System.out.println(Thread.currentThread().getName()+ " save method ½ÇÇà");
+		System.out.println(Thread.currentThread().getName()+ " save method ì‹¤í–‰");
 		try {
 			Thread.sleep(5000);
 		} catch (InterruptedException e) {
@@ -25,10 +26,10 @@ class Save {
 			e.printStackTrace();
 		}
 		System.out.println();
-		System.out.println(Thread.currentThread().getName()+ " plus method È£Ãâ");
+		System.out.println(Thread.currentThread().getName()+ " plus method í˜¸ì¶œ");
 		calc.plus(num);
 		
-		System.out.println(Thread.currentThread().getName()+ " save mehtod Á¾·á");
+		System.out.println(Thread.currentThread().getName()+ " save mehtod ì¢…ë£Œ");
 		System.out.println(num);
 	}
 	
